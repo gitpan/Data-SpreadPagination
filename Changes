@@ -1,5 +1,9 @@
 Revision history for Perl module Data::SpreadPagination:
 
+0.1.2 Mon Jul 19 2004
+   - Fixed META.yml file; license field got missed out in
+     the last revision
+
 0.1.1 Mon Jul 19 2004
    - Added the missing Math::Round dependency
 

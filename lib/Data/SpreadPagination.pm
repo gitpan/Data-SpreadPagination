@@ -9,7 +9,7 @@ use Math::Round qw(round);
 
 use vars qw(@ISA $VERSION);
 @ISA = qw(Data::Page);
-$VERSION = '0.1.1';
+$VERSION = '0.1.2';
 
 =head1 NAME
 
