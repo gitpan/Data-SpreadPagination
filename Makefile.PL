@@ -6,8 +6,9 @@ WriteMakefile(
     VERSION_FROM      => 'lib/Data/SpreadPagination.pm', # finds $VERSION
     NO_META           => 1,
     PREREQ_PM         => {
-        'Data::Page' => 0.18
-      }, # e.g., Module::Name => 1.1
+        'Data::Page' => 0.18,
+        'Math::Round' => '0',
+      }, 
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/Data/SpreadPagination.pm', # retrieve abstract from module
        AUTHOR         => 'Jody Belka <knew@cpan.org>') : ()),
